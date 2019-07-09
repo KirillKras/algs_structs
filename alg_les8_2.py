@@ -9,7 +9,6 @@ def my_hash(txt):
         right = left + sub_len - 1
         while right < len_txt:
             sub_txt = txt[left:right + 1]
-            print(sub_txt)
             result.add(sub_txt)
             left += 1
             right = left + sub_len - 1
